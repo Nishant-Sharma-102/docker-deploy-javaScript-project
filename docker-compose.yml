@@ -5,6 +5,6 @@ services:
     build: .
     container_name: static-js-app
     ports:
-      - "80:80"
+      - "81:81"
     restart: unless-stopped
  
