@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent {label "dev"};
 
     environment {
         IMAGE_NAME = "pipeline:v1"
